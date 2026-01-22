@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>login</title>
+</head>
+<body>
+
+<form onsubmit="return login()">
+ <input id="u" placeholder="Username" required>
+ <input id="p"> type="password" placeholder="Password" required>
+ <buttom>Login</button>
+</form>
+
+<script>
+function login(){
+  if(u.value=="admin" && p.value=="123"){
+    alert("Login berhasil");
+  } else {
+    alert("Login gagal");
+  }
+  return false;
+}
+</script>
+
+</body>
+</html>
